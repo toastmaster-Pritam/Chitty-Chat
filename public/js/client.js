@@ -42,7 +42,7 @@ socket.on("user-list", (users) => {
   }
   userCount.innerHTML = userArray.length;
 });
-
+//user joining or leaving chat
 const userJoinLeft = (name, status) => {
   const div = document.createElement("div");
   div.classList.add("user-join");
